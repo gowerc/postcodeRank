@@ -1,0 +1,18 @@
+Package: postcodeRank
+Title: Support functions to lookup multiple deprivation indicies information of various UK postcodes
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Craig",family = "Gower", role = c("aut", "cre"),email = "first.last@example.com")
+Description: Support functions to lookup multiple deprivation indicies information of various UK postcodes
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    stringr,
+    httr,
+    glue,
+    xml2,
+    purrr,
+    tidyr
+RoxygenNote: 6.1.1
